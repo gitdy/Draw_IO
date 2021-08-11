@@ -1,1 +1,99 @@
-<mxfile host="app.diagrams.net" modified="2021-08-11T06:16:56.401Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" version="14.7.4" etag="9PaOugUPrrPRr-YHZ6Ru" type="github"><diagram id="RId8-rulqUCuER-rvPwq">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-08-11T06:33:05.620Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="1om9muwiDd5mRwjvT_ir" version="14.7.4" type="github">
+  <diagram id="RId8-rulqUCuER-rvPwq" name="Page-1">
+    <mxGraphModel dx="2013" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fV03khcgGxPLp-E_VUfp-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fV03khcgGxPLp-E_VUfp-1" target="fV03khcgGxPLp-E_VUfp-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fV03khcgGxPLp-E_VUfp-1" value="Union" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="260" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fV03khcgGxPLp-E_VUfp-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" edge="1" parent="1" source="fV03khcgGxPLp-E_VUfp-8" target="fV03khcgGxPLp-E_VUfp-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fV03khcgGxPLp-E_VUfp-2" value="Library A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="260" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fV03khcgGxPLp-E_VUfp-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fV03khcgGxPLp-E_VUfp-5" target="fV03khcgGxPLp-E_VUfp-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fV03khcgGxPLp-E_VUfp-5" value="deploy aar File" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="270" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fV03khcgGxPLp-E_VUfp-9" value="planner" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fV03khcgGxPLp-E_VUfp-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;" edge="1" parent="1" source="fV03khcgGxPLp-E_VUfp-15" target="fV03khcgGxPLp-E_VUfp-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="160" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fV03khcgGxPLp-E_VUfp-13" value="Library A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="410" y="100" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fV03khcgGxPLp-E_VUfp-8" value="import" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFF99;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="265" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fV03khcgGxPLp-E_VUfp-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" edge="1" parent="1" source="fV03khcgGxPLp-E_VUfp-2" target="fV03khcgGxPLp-E_VUfp-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-110" y="290" as="sourcePoint" />
+            <mxPoint x="50" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fV03khcgGxPLp-E_VUfp-15" value="import" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFF99;" vertex="1" parent="1">
+          <mxGeometry x="420" y="190" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fV03khcgGxPLp-E_VUfp-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;" edge="1" parent="1" target="fV03khcgGxPLp-E_VUfp-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="160" as="sourcePoint" />
+            <mxPoint x="410" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fV03khcgGxPLp-E_VUfp-17" value="import" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFF99;" vertex="1" parent="1">
+          <mxGeometry x="290" y="265" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fV03khcgGxPLp-E_VUfp-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fV03khcgGxPLp-E_VUfp-19" target="fV03khcgGxPLp-E_VUfp-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fV03khcgGxPLp-E_VUfp-19" value="Union" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="540" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fV03khcgGxPLp-E_VUfp-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" edge="1" parent="1" source="fV03khcgGxPLp-E_VUfp-27" target="fV03khcgGxPLp-E_VUfp-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fV03khcgGxPLp-E_VUfp-21" value="Library A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="540" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fV03khcgGxPLp-E_VUfp-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fV03khcgGxPLp-E_VUfp-23" target="fV03khcgGxPLp-E_VUfp-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fV03khcgGxPLp-E_VUfp-23" value="deploy maven" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="550" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fV03khcgGxPLp-E_VUfp-24" value="planner" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fV03khcgGxPLp-E_VUfp-27" value="import" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFF99;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="545" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fV03khcgGxPLp-E_VUfp-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" edge="1" parent="1" source="fV03khcgGxPLp-E_VUfp-21" target="fV03khcgGxPLp-E_VUfp-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-110" y="570" as="sourcePoint" />
+            <mxPoint x="50" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fV03khcgGxPLp-E_VUfp-31" value="import" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFF99;" vertex="1" parent="1">
+          <mxGeometry x="290" y="545" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fV03khcgGxPLp-E_VUfp-32" value="Library A need use in planner and Union,&lt;br&gt;Need&amp;nbsp;&lt;span style=&quot;color: rgb(78 , 78 , 78) ; font-family: &amp;#34;helvetica&amp;#34; , &amp;#34;lucida grande&amp;#34; , &amp;#34;lucida&amp;#34; , &amp;#34;verdana&amp;#34; , sans-serif ; font-size: 13.3333px ; background-color: rgb(255 , 255 , 255)&quot;&gt;repeat import in both project.&lt;br&gt;&lt;/span&gt;And config version in both project.&lt;br&gt;https://github.com/tkww/Planner-Android/pull/7104/commits/936be03546da763a59bba4c2e5a762b3e8ade27e&lt;br&gt;8 3rd party use in both project." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="100" width="490" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fV03khcgGxPLp-E_VUfp-33" value="Planner can use Library A from maven&amp;nbsp;&lt;span style=&quot;color: rgb(77 , 81 , 86) ; font-family: &amp;#34;arial&amp;#34; , sans-serif ; font-size: 14px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;dependency management.&lt;br&gt;Reduce dependency config.&amp;nbsp;&lt;br&gt;Easy to use same version and same library.&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="410" width="500" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
